@@ -129,8 +129,13 @@ img {
 
 .modal__title {
   font-size: var(--big-font-size);
+<<<<<<< HEAD
   font-weight: 500;
   color: var(--title-color);
+=======
+  color: var(--title-color);
+  font-weight: 500;
+>>>>>>> 812439a3a86b0046b47b6785c5ad5d038f5fbe4b
 }
 
 .modal__description {
@@ -144,9 +149,16 @@ img {
 .modal__button-link {
   display: block;
   margin: 1rem auto 0;
+<<<<<<< HEAD
   font-weight: 500;
   color: var(--first-color);
   background-color: transparent;
+=======
+  background-color: transparent;
+  color: var(--first-color);
+  font-weight: 500;
+
+>>>>>>> 812439a3a86b0046b47b6785c5ad5d038f5fbe4b
 }
 
 /* Show modal */
