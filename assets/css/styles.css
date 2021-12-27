@@ -29,7 +29,33 @@
 }
 
 /*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+body, button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  position: relative;
+  color: var(--text-color);
+  background-color: var(--body-color);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /*=============== MODAL ===============*/
 
