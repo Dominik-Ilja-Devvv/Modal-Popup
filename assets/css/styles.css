@@ -109,8 +109,14 @@ img {
   border-radius: 1.25rem;
   transition: all 0.3s;
 
-  /* === Effect 1 ===*/
-  transform: translateY(10%);
+  /* === Effect 1 === */
+  /* transform: translateY(10%); */
+
+  /* === Effect 2 === */
+  /* transform: scale(0.5) translateY(10%); */
+
+  /* === Effect 3 === */
+  transform: rotateX(135deg) scale(0.75) translateY(10%);
 }
 
 .modal__img {
@@ -160,5 +166,12 @@ img {
 }
 
 .show-modal .modal__content {
-  transform: translateY(0);
+  /* === Effect 1 === */
+  /* transform: translateY(0); */
+
+  /* === Effect 2 === */
+  /* transform: scale(1) translateY(0); */
+
+  /* === Effect 3 === */
+  transform: rotateX(0) scale(1) translateY(0);
 }
