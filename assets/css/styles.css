@@ -100,10 +100,13 @@ img {
 
 .modal__content {
   position: relative;
+  width: 95%;
+  max-width: 380px;
   padding: 3rem 2rem 2rem;
+  margin: auto;
   text-align: center;
   background-color: var(--container-color);
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 1.25rem;
   transition: all 0.3s;
 
   /* === Effect 1 ===*/
@@ -111,7 +114,8 @@ img {
 }
 
 .modal__img {
-  width: 150px;
+  width: 100%;
+  max-width: 170px;
   margin-bottom: 0.75rem;
 }
 
@@ -158,6 +162,3 @@ img {
 .show-modal .modal__content {
   transform: translateY(0);
 }
-
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
