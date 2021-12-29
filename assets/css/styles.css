@@ -92,10 +92,10 @@ img {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  visibility: hidden;
   background-color: hsla(var(--hue), 18%, 75%, 0.8);
+  opacity: 0;
   transition: all 0.3s;
-  /* visibility: hidden;
-  opacity: 0; */
 }
 
 .modal__content {
@@ -150,7 +150,14 @@ img {
 }
 
 /* Show modal */
+.show-modal {
+  visibility: visible;
+  opacity: 1;
+}
 
+.show-modal .modal__content {
+  transform: translateY(0);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
